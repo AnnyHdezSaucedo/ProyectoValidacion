@@ -1,0 +1,46 @@
+<h1>Nuevo Cliente</h1>
+
+<%= form_for @clientes do |f| %>
+	<% if @clientes.errors.any? %>
+		<h2>Errores:</h2>	
+		<ul>
+			<% @clientes.errors.full_messages.each do |message| %>
+				<li><%= message %></li>
+			<% end %>
+		</ul>
+	<% end %>
+<p>
+	<%= f.label :c_tarjeta_cliente %>
+	<%= f.text_field :c_targeta_cliente %><br />
+<br />
+	<%= f.label :nombre %>
+	<%= f.text_area :nombre %>
+<br />
+	<%= f.label :ApellidoPaterno %>
+	<%= f.text_area :a_paterno %>
+<br />
+	<%= f.label :ApellidoMaterno %><br />
+	<%= f.text_area :a_materno %>
+<br />
+	<%= f.label :email %>
+	<%= f.text_area :email %>
+<br />
+	<%= f.label :t_celular %>
+	<%= f.text_area :t_celular %>
+<br />
+	<%= f.label :domicilio %>
+	<%= f.text_area :domicilio %>
+<br />
+	<%= f.label :c_postal %>
+	<%= f.text_area :c_postal %>
+<br />
+	<%= f.label :sexo %>
+	<%= f.text_area :sexo %>
+<br />
+	<%= f.label :fecha_alta %>
+	<%= f.text_area :fecha_alta %>
+</p>
+<p>
+	<%= f.submit :'Agregar Nuevo Cliente' %>
+</p>
+<% end %>
