@@ -1,7 +1,7 @@
 {
   "MiniTest": {
     "coverage": {
-      "C:/Users/Saucedo/Documents/GitHub/Restaurant/app/controllers/clientes_controller.rb": [
+      "C:/Users/Saucedo/Documents/GitHub/ProyectoValidacion/app/controllers/clientes_controller.rb": [
         null,
         1,
         1,
@@ -56,7 +56,7 @@
         null,
         null
       ],
-      "C:/Users/Saucedo/Documents/GitHub/Restaurant/app/controllers/application_controller.rb": [
+      "C:/Users/Saucedo/Documents/GitHub/ProyectoValidacion/app/controllers/application_controller.rb": [
         1,
         null,
         null,
@@ -64,6 +64,6 @@
         null
       ]
     },
-    "timestamp": 1394246908
+    "timestamp": 1394307255
   }
 }
